@@ -69,7 +69,7 @@ def GetInput(input):
     input = input[4:]
 
     for err in err_int:
-        if str(err) in input:
+        if str(err) in input and input_action != "encode":
             raise InvalidInputError
         
     try:
@@ -79,7 +79,7 @@ def GetInput(input):
         if input_action != "encode":
             raise InvalidInputError
         
-    if len(input) % 8 != 0 and input_type != "str":
+    if len(input) % 8 != 0 and input_type != "str" and input_action != "encode":
         raise InvalidInputError
     
     return(input_action, input_type, input)
@@ -149,3 +149,15 @@ def QuickRun():
         print("No Type Defined!")
 
     print(GetAnswer(input_action, input_type, input1))
+
+if __name__ == "__main__":
+    while True:
+        os.system("cls")
+        try:
+            user_input_action, user_input_type, user_input = GetInput(input(">>>:"))
+        except InvalidInputError:
+            input("Invalid Input!, 'ENTER' to continue")
+            continue
+        os.system("cls")
+        print(GetAnswer(user_input_action, user_input_type, user_input))
+        input("'ENTER' to continue")
