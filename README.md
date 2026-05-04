@@ -1,7 +1,7 @@
 # Binary-Decoder
 1)BASE-2 BIANARY CODE DECODER (V1)
-HELPP MEEEEEEE, stock i guess v3 is WAYY too draining, and im not even 80% THERE WITH UNDERSTANDIGN THE LOGIC FOR THE RULE-BASED CHATBOT! well i need a break, this is the perrfect break, because, im naturally curious, and touching python means touching cs, and touching cs means obviously touching bytes
-what i have learnt, from ai of course, gemini cuz thats the best one unlike chat gpt telling me to walk to a 100meters-away car wash to wash my car:
+HELPP MEEEEEEE, stock i guess v3 is WAYY too draining, and im not even 80% THERE WITH UNDERSTANDIGN THE LOGIC FOR THE RULE-BASED CHATBOT! well i need a break, this is the perrfect break, because, im naturally curious, and touching python means touching cs, and touching cs means obviously touching bytes.
+This is what i have learnt, from ai of course, gemini cuz thats the best one unlike chat gpt telling me to walk to a 100meters-away car wash to wash my car:
 
 what is a byte? a byte is a set of 8 switches that is yeyey, and a byte cna go up to 255 by itself, and so a switch has an on (1) and an off (0), woah, i just learnt base-2 bianary! YIPPEEE
 
